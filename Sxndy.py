@@ -23,7 +23,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" Paket Otw Tod!!!")
 		except:
 			print("[!] Error!!!")
 
